@@ -23,19 +23,19 @@ const Title = styled.h1`
 
 const images = [
   {
-    url: "https://dreams-come-true-bucket.s3.ap-northeast-2.amazonaws.com/image/011e2f31-9457-4129-9871-0842a0614fe3.png",
+    url: `${process.env.REACT_APP_AWS_S3_IMAGE_BASE_URL}/image/011e2f31-9457-4129-9871-0842a0614fe3.png`,
   },
   {
-    url: "https://dreams-come-true-bucket.s3.ap-northeast-2.amazonaws.com/image/0e8897bf-f7f4-4a8f-9abf-bfa07c169d57.png",
+    url: `${process.env.REACT_APP_AWS_S3_IMAGE_BASE_URL}/image/0e8897bf-f7f4-4a8f-9abf-bfa07c169d57.png`,
   },
   {
-    url: "https://dreams-come-true-bucket.s3.ap-northeast-2.amazonaws.com/image/62965807-ad91-4001-8f0f-18d744caceac.png",
+    url: `${process.env.REACT_APP_AWS_S3_IMAGE_BASE_URL}/image/62965807-ad91-4001-8f0f-18d744caceac.png`,
   },
   {
-    url: "https://dreams-come-true-bucket.s3.ap-northeast-2.amazonaws.com/image/89cb93f6-389e-474f-828d-f9cebe9c6ac1.png",
+    url: `${process.env.REACT_APP_AWS_S3_IMAGE_BASE_URL}/image/89cb93f6-389e-474f-828d-f9cebe9c6ac1.png`,
   },
   {
-    url: "https://dreams-come-true-bucket.s3.ap-northeast-2.amazonaws.com/image/89dded3a-7e62-401a-bf5b-f46036628b0f.png",
+    url: `${process.env.REACT_APP_AWS_S3_IMAGE_BASE_URL}/image/89dded3a-7e62-401a-bf5b-f46036628b0f.png`,
   },
 ];
 
